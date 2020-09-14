@@ -17,6 +17,8 @@ def main():
         # for j in range(36-i):  # rabbit
         j = 35 - i
         if 2*i + 4*j == 94:
+
+            # 字典的get方法
             num["chickens"] = num.get("chickens", i)
             num["rabbits"] = num.get("rabbits", j)
 
